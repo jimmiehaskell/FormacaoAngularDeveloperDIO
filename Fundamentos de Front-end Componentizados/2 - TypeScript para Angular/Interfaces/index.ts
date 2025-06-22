@@ -24,4 +24,4 @@ class Person implements Person {
 
 let person: Person = new Person("Jimmie Haskell", "haskell4228@gmail.com", new Date("1992-08-01 20:00"));
 
-console.log(person);
+console.log(person.birthday.toString());
